@@ -1,2 +1,1 @@
-# AICollegeCounselor
-AI College Counselor
+IDEK WE COOKED
