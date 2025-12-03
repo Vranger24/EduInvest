@@ -150,16 +150,16 @@ class EduInvest(QMainWindow):
         - Maintain simple scoring and streak state for the game
         """
         def __init__(self):
-                super().__init__()
-        self.setWindowTitle("EduInvest - AI Stock Guessing Game")
-        self.setGeometry(200, 200, 900, 600)
+            super().__init__()
+            self.setWindowTitle("EduInvest - AI Stock Guessing Game")
+            self.setGeometry(200, 200, 900, 600)
 
-        self.score = 0
-        self.streak = 0
-        self.currentStock = None
+            self.score = 0
+            self.streak = 0
+            self.currentStock = None
 
-        self.initUI()
-        self.pickNewStock()
+            self.initUI()
+            self.pickNewStock()
 
    
     def initUI(self):
